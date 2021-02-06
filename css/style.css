@@ -1,0 +1,108 @@
+* {
+	outline: 1px solid orange;
+}
+
+body {
+	width: 1280px;
+	margin: 0 auto;
+	padding: 10px 0px;
+	background-color: #222;
+	font-family: "Verdana", sans-serif;
+	font-size: 14px;
+	color: #d4d4d4;
+}
+
+
+main,
+footer,
+div header,
+div {
+	margin: 0;
+}
+
+nav {
+	padding: 33px 160px 0px;
+	margin-bottom: 15px;
+}
+
+
+header ul {
+	display: inline-block;
+	list-style: none;
+	padding: 2px;
+	max-width: 700px;
+}
+
+header li {
+	display: inline;
+	margin-left: 33px;
+}
+
+
+.icon{
+	float: right;
+}
+
+.first_screen{
+	display: flex;
+	margin: 80px;
+	padding: 0px 80px 100px;
+	justify-content: space-between;
+	
+}
+
+.block_heading{
+	margin: 0px;
+	width: 250px;
+    padding: 70px 70px 70px 125px;
+}
+
+.advantages{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	margin: 0;
+	padding: 35px 160px;
+	background-color: black;
+}
+
+.advantages_element{
+	width: 180px;
+	padding: 45px 0px;	
+}
+
+.content {
+	background-color: #fff;
+	padding: 60px 160px;
+	color: #222;
+	
+}
+
+.description{
+	display: flex;
+    justify-content: space-between;
+}
+.recommendations{
+	display: flex;
+	
+}
+
+.content_element{
+    width: 440px;
+}
+.advantages_element{
+    
+}
+.recommendations ul{
+	position: relative;
+	list-style: none;
+}
+
+.recommendations li::before{
+	content:'';
+	width: 5px;
+	height: 5px;
+	background-color: darkgreen;
+	bottom: -10px;
+	right: -0px;
+}
